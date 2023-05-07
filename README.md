@@ -1,0 +1,3 @@
+Artificial Bee Colony (ABC) optimisation over opencl and C++.
+
+The Artificial Bee Colony (ABC) algorithm is a relatively new swarm intelligence algorithm inspired by the foraging behavior of real honey bee colonies. This algorithm simulates the honey bee colony's honey gathering behavior, where bees perform different foraging activities based on their assigned roles. During the foraging process, the unique role-switching mechanism and the exchange and sharing of information in a self-organizing manner enable the bees to find the optimal food source. The ABC algorithm inherently possesses parallelism. OpenCL parallel programming is employed to design a GPU-accelerated program for the Artificial Bee Colony algorithm.
