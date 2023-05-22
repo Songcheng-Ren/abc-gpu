@@ -1,0 +1,6 @@
+﻿  run.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 300 (OpenCL 3.0)
+C:\Users\lenovo\source\repos\abc-gpu\abc-gpu\run.cpp(43,18): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+C:\Users\lenovo\source\repos\abc-gpu\abc-gpu\run.cpp(50,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\lenovo\source\repos\abc-gpu\abc-gpu\run.cpp(91,12): warning C4101: “subHistgCnt”: 未引用的局部变量
+  abc-gpu.vcxproj -> C:\Users\lenovo\source\repos\abc-gpu\x64\Debug\abc-gpu.exe

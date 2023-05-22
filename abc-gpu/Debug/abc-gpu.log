@@ -1,0 +1,25 @@
+﻿  run.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 300 (OpenCL 3.0)
+C:\Users\lenovo\source\repos\abc-gpu\abc-gpu\run.cpp(38,18): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+C:\Users\lenovo\source\repos\abc-gpu\abc-gpu\run.cpp(45,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\lenovo\source\repos\abc-gpu\abc-gpu\run.cpp(102,12): warning C4101: “localArray_2”: 未引用的局部变量
+C:\Users\lenovo\source\repos\abc-gpu\abc-gpu\run.cpp(182,12): warning C4101: “binary_status”: 未引用的局部变量
+C:\Users\lenovo\source\repos\abc-gpu\abc-gpu\run.cpp(101,12): warning C4101: “localArray_1”: 未引用的局部变量
+C:\Users\lenovo\source\repos\abc-gpu\abc-gpu\run.cpp(88,12): warning C4101: “subHistgCnt”: 未引用的局部变量
+  LINK : 没有找到 C:\Users\lenovo\source\repos\abc-gpu\Debug\abc-gpu.exe 或上一个增量链接没有生成它；正在执行完全链接
+run.obj : error LNK2005: "void __cdecl initilize(void)" (?initilize@@YAXXZ) 已经在 abc.obj 中定义
+run.obj : error LNK2005: _main 已经在 abc.obj 中定义
+run.obj : error LNK2005: "double * result" (?result@@3PANA) 已经在 abc.obj 中定义
+run.obj : error LNK2019: 无法解析的外部符号 _clGetPlatformIDs@12，函数 _main 中引用了该符号
+run.obj : error LNK2019: 无法解析的外部符号 _clGetDeviceIDs@24，函数 _main 中引用了该符号
+run.obj : error LNK2019: 无法解析的外部符号 _clCreateContextFromType@24，函数 _main 中引用了该符号
+run.obj : error LNK2019: 无法解析的外部符号 _clCreateBuffer@24，函数 _main 中引用了该符号
+run.obj : error LNK2019: 无法解析的外部符号 _clCreateProgramWithSource@20，函数 _main 中引用了该符号
+run.obj : error LNK2019: 无法解析的外部符号 _clBuildProgram@24，函数 _main 中引用了该符号
+run.obj : error LNK2019: 无法解析的外部符号 _clGetProgramBuildInfo@24，函数 _main 中引用了该符号
+run.obj : error LNK2019: 无法解析的外部符号 _clCreateKernel@12，函数 _main 中引用了该符号
+run.obj : error LNK2019: 无法解析的外部符号 _clSetKernelArg@16，函数 _main 中引用了该符号
+run.obj : error LNK2019: 无法解析的外部符号 _clEnqueueNDRangeKernel@36，函数 _main 中引用了该符号
+run.obj : error LNK2019: 无法解析的外部符号 _clCreateCommandQueue@20，函数 _main 中引用了该符号
+C:\Program Files (x86)\Intel\oneAPI\compiler\2023.0.0\windows\lib\oclfpga\host\windows64\lib\OpenCL.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Users\lenovo\source\repos\abc-gpu\Debug\abc-gpu.exe : fatal error LNK1120: 11 个无法解析的外部命令
